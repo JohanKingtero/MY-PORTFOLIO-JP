@@ -40,17 +40,17 @@ const Banner = () => {
           </motion.p>
           <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.7}} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
             <button className='btn btn-lg'><a href="#contact">Contactame</a></button>
-            <a href="" className='text-gradient btn-link'>My Curriculum Vitae</a>
+            <a href='C:\Users\user\OneDrive\Escritorio\intento\src\documents\blueprofessionalmodernCVresume3.pdf' className='text-gradient btn-link'>My Curriculum Vitae</a>
           </motion.div>
           {/*socials*/}
           <motion.div variants={fadeIn('up', 0.7)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.7}} className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-            <a href='#'>
+            <a href='https://www.linkedin.com/in/johan-poveda1008/nom'>
               <FaLinkedin/>
             </a>
             <a href='https://github.com/JohanKingtero' target="_blank">
               <FaGithub/>
             </a>
-            <a href='#'>
+            <a href='https://torre.ai/johanpoveda?r=Y0Py7MOc'>
               <FaBroadcastTower/>
             </a>
           </motion.div>

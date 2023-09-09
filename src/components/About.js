@@ -50,12 +50,13 @@ const About = () => {
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
               {
                 InView ?
-                <CountUp start={0} end={1.5} duration={3}/> : null}
-                k+
+                <CountUp start={0} end={3} duration={3}/> : null}
+                
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
-                Projectos <br />
-                COMPLETADOS
+                Años de  <br />
+                Estudio
+                
               </div>
             </div>
             <div>
@@ -63,11 +64,12 @@ const About = () => {
               {
                 InView ?
                 <CountUp start={0} end={5} duration={3}/> : null}
-                k+
+                
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
-                Clientes <br />
-                Satisfichos
+                Lenguajes <br />
+                Aprendidos
+                
               </div>
             </div>
           </div>
